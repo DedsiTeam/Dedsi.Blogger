@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Logs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Logs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Logs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Logs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\frameworks\Dedsi.Blogger.ApiService\Dedsi.Blogger.ApiService.csproj" />
+      <ProjectReference Include="..\..\modules\Dedsi.Blogger.Article\Dedsi.Blogger.Article.Application\Dedsi.Blogger.Article.Application.csproj" />
+      <ProjectReference Include="..\..\modules\Dedsi.Blogger.Article\Dedsi.Blogger.Article.HttpApi\Dedsi.Blogger.Article.HttpApi.csproj" />
+      <ProjectReference Include="..\..\modules\Dedsi.Blogger.Article\Dedsi.Blogger.Article.SqlSugar\Dedsi.Blogger.Article.SqlSugar.csproj" />
+    </ItemGroup>
+
+</Project>

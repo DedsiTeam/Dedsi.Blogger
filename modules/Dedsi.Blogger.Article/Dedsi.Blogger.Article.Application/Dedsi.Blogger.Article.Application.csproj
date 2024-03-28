@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Dedsi.Blogger.Article</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\frameworks\Dedsi.Blogger.Application\Dedsi.Blogger.Application.csproj" />
+    <ProjectReference Include="..\Dedsi.Blogger.Article.Application.Contracts\Dedsi.Blogger.Article.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Dedsi.Blogger.Article.Domain\Dedsi.Blogger.Article.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

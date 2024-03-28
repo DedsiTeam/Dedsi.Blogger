@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Dedsi.Blogger.Identity</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="8.0.4" />
+    <ProjectReference Include="..\Dedsi.Blogger.Identity.Application.Contracts\Dedsi.Blogger.Identity.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

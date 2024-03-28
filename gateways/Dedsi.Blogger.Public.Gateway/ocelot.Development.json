@@ -1,0 +1,43 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/dedsi-blogger-identity/{url}",
+      "UpstreamHttpMethod": [],
+      "DownstreamPathTemplate": "/api/dedsi-blogger-identity/{url}",
+      "DownstreamScheme": "http",
+      "ServiceName": "Dedsi.Blogger.Identity.ApiService",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/dedsi-blogger-file-center/{url}",
+      "UpstreamHttpMethod": [],
+      "DownstreamPathTemplate": "/api/dedsi-blogger-file-center/{url}",
+      "DownstreamScheme": "http",
+      "ServiceName": "Dedsi.Blogger.FileCenter.ApiService",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/dedsi-blogger-article/{url}",
+      "UpstreamHttpMethod": [],
+      "DownstreamPathTemplate": "/api/dedsi-blogger-article/{url}",
+      "DownstreamScheme": "http",
+      "ServiceName": "Dedsi.Blogger.Article.ApiService",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:6299",
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

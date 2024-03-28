@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Dedsi.Blogger.Identity</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\frameworks\Dedsi.Blogger.Domain\Dedsi.Blogger.Domain.csproj" />
+    <ProjectReference Include="..\..\..\frameworks\Dedsi.Blogger.SqlSugar\Dedsi.Blogger.SqlSugar.csproj" />
+    <ProjectReference Include="..\Dedsi.Blogger.Identity.Domain.Shared\Dedsi.Blogger.Identity.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
