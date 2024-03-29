@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{F5AA46AC-9F81-44DC-BE8E-5528EDBDEC97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dedsi.Blogger.Web", "applications\Dedsi.Blogger.Web\Dedsi.Blogger.Web.csproj", "{8F38604E-9CF1-406E-8E64-3AC6FF6CC8A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dedsi.Blogger.Web", "applications\Dedsi.Blogger.Web\Dedsi.Blogger.Web.csproj", "{888091C9-0E5A-42A5-8615-C6BEC5B3B1FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,12 +16,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8F38604E-9CF1-406E-8E64-3AC6FF6CC8A6} = {F5AA46AC-9F81-44DC-BE8E-5528EDBDEC97}
+		{888091C9-0E5A-42A5-8615-C6BEC5B3B1FC} = {F5AA46AC-9F81-44DC-BE8E-5528EDBDEC97}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8F38604E-9CF1-406E-8E64-3AC6FF6CC8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F38604E-9CF1-406E-8E64-3AC6FF6CC8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F38604E-9CF1-406E-8E64-3AC6FF6CC8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F38604E-9CF1-406E-8E64-3AC6FF6CC8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888091C9-0E5A-42A5-8615-C6BEC5B3B1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888091C9-0E5A-42A5-8615-C6BEC5B3B1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888091C9-0E5A-42A5-8615-C6BEC5B3B1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888091C9-0E5A-42A5-8615-C6BEC5B3B1FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
